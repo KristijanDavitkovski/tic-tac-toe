@@ -1,0 +1,18 @@
+main{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 0px;
+}
+app-square{
+    border: 3px darkblue solid;
+    border-radius: 3px;
+    background-color: rgb(6, 95, 150);
+    height: 100px;
+}
+.positive {
+    color: rgb(116, 241, 116);
+}
+
+.negative {
+    color: red;
+}

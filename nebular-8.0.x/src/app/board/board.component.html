@@ -1,0 +1,21 @@
+<h2 style="margin-left: 500px" *ngIf="!winner">Current player: {{player}}</h2>
+
+<h2 style="margin-left: 500px" *ngIf="winner">Player {{winner}} won the game!<br>
+</h2>
+<hr>
+<main style="margin-left: 500px">
+
+    <app-square 
+    *ngFor="let val of squares;let i = index"
+    [value]="val"
+    [ngClass]="{
+        'positive' : val == 'X',
+        'negative' : val == 'O'
+     }"
+    (click)="makeMove(i)">
+</app-square>
+</main>
+<hr>
+<button style="margin-left: 600px" class="btn btn-success" (click)="newGame()">New Game</button>
+<hr>
+<h3 style="color: red;margin-left: 520px;margin-top:30px" *ngIf="winner">Nova igra za {{sec}} sekundi</h3>
