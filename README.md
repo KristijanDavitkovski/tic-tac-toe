@@ -1,5 +1,7 @@
 # XO
 
+Simple tic-tac-toe game build using Angular as a small project 
+
 ## Build![slika 1](https://user-images.githubusercontent.com/121228684/209467634-efe8e55d-48b6-4012-ad09-b50d165b18de.png)
 ![slika 2](https://user-images.githubusercontent.com/121228684/209467656-6e3dd2fa-a81b-4265-87d0-4a104b4ce2ad.png)
 
