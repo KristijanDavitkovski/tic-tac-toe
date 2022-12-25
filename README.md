@@ -1,5 +1,8 @@
 # XO
 
+## Build![slika 1](https://user-images.githubusercontent.com/121228684/209467634-efe8e55d-48b6-4012-ad09-b50d165b18de.png)
+![slika 2](https://user-images.githubusercontent.com/121228684/209467656-6e3dd2fa-a81b-4265-87d0-4a104b4ce2ad.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
 
 ## Development server
@@ -9,8 +12,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build![slika 1](https://user-images.githubusercontent.com/121228684/209467634-efe8e55d-48b6-4012-ad09-b50d165b18de.png)
 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
